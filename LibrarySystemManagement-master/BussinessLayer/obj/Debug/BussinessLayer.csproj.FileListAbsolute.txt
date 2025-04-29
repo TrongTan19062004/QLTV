@@ -1,0 +1,55 @@
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\bin\Debug\BussinessLayer.dll
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\bin\Debug\BussinessLayer.pdb
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\bin\Debug\DataLayer.dll
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\bin\Debug\TransferObject.dll
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\bin\Debug\TransferObject.pdb
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\obj\Debug\Bussines.E1038C4E.Up2Date
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.dll
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.pdb
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\bin\Debug\BussinessLayer.dll
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\bin\Debug\BussinessLayer.pdb
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\bin\Debug\DataLayer.dll
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\bin\Debug\TransferObject.dll
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\bin\Debug\TransferObject.pdb
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\obj\Debug\Bussines.E1038C4E.Up2Date
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.dll
+C:\Users\TAN\Downloads\LibrarySystemManagement-main\LibrarySystemManagement-main\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.pdb
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\bin\Debug\BussinessLayer.dll
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\bin\Debug\BussinessLayer.pdb
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\bin\Debug\DataLayer.dll
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\bin\Debug\TransferObject.dll
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\bin\Debug\TransferObject.pdb
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\obj\Debug\Bussines.E1038C4E.Up2Date
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.dll
+C:\Users\TAN\source\repos\LibrarySystemManagement-Tan\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.pdb
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\bin\Debug\BussinessLayer.dll
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\bin\Debug\BussinessLayer.pdb
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\bin\Debug\DataLayer.dll
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\bin\Debug\TransferObject.dll
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\bin\Debug\DataLayer.pdb
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\bin\Debug\TransferObject.pdb
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.csproj.AssemblyReference.cache
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\obj\Debug\Bussines.E1038C4E.Up2Date
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.dll
+D:\LibrarySystemManagement-master\LibraryManagementSystem\BussinessLayer\obj\Debug\BussinessLayer.pdb
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\BussinessLayer.dll
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\BussinessLayer.pdb
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\DataLayer.dll
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\TransferObject.dll
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\TransferObject.pdb
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\Bussines.E1038C4E.Up2Date
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\BussinessLayer.dll
+C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\BussinessLayer.pdb

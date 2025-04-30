@@ -32,10 +32,14 @@ namespace DataLayer
                 cn.Close();
             }
             }
-        public object MyExcuteScalar(String sql, CommandType type)
+        public object MyExcuteScalar(String sql, CommandType type, SqlParameter[] sqlParameters=null)
         {
             SqlCommand cmd= new SqlCommand(sql, cn);
             cmd.CommandType = CommandType.Text;
+            if (sqlParameters != null)
+            {
+                cmd.Parameters.AddRange(sqlParameters);
+            }
             try
             {
                 return cmd.ExecuteScalar();
@@ -45,10 +49,14 @@ namespace DataLayer
                 throw new Exception(ex.Message);
             }
         }
-        public object MyExcuteNonQuery(String sql, CommandType type)
+        public int MyExcuteNonQuery(String sql, CommandType type, SqlParameter[] sqlParameters=null)
         {
             SqlCommand Command = new SqlCommand(sql, cn);
             Command.CommandType = CommandType.Text;
+            if (sqlParameters != null)
+            {
+                Command.Parameters.AddRange(sqlParameters);
+            }
             try
             {
                 connect();
@@ -62,10 +70,14 @@ namespace DataLayer
                 Disconnect();
             }
         }
-        public DataTable MyExcuteReader(String sql, CommandType type)
+        public DataTable MyExcuteReader(String sql, CommandType type, SqlParameter[] sqlParameters = null)
         {
             SqlCommand Command = new SqlCommand(sql, cn);
             Command.CommandType = CommandType.Text;
+            if (sqlParameters != null)
+            {
+                Command.Parameters.AddRange(sqlParameters);
+            }
             try
             {
                 connect();

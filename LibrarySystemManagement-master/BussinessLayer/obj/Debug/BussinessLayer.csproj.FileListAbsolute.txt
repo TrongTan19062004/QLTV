@@ -53,3 +53,14 @@ C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement
 C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\Bussines.E1038C4E.Up2Date
 C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\BussinessLayer.dll
 C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\BussinessLayer.pdb
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\BussinessLayer.dll
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\BussinessLayer.pdb
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\DataLayer.dll
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\TransferObject.dll
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\DataLayer.pdb
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\bin\Debug\TransferObject.pdb
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\BussinessLayer.csproj.AssemblyReference.cache
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\Bussines.E1038C4E.Up2Date
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\BussinessLayer.dll
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\BussinessLayer\obj\Debug\BussinessLayer.pdb

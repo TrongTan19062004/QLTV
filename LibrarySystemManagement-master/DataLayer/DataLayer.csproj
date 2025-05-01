@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountDL.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="DataProvier.cs" />
     <Compile Include="DocumentDL.cs" />

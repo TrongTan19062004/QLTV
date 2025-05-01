@@ -71,15 +71,16 @@
             // viewPersonalToolStripMenuItem
             // 
             this.viewPersonalToolStripMenuItem.Name = "viewPersonalToolStripMenuItem";
-            this.viewPersonalToolStripMenuItem.Size = new System.Drawing.Size(203, 26);
+            this.viewPersonalToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.viewPersonalToolStripMenuItem.Text = "ViewPersonal";
             this.viewPersonalToolStripMenuItem.Click += new System.EventHandler(this.viewPersonalToolStripMenuItem_Click);
             // 
             // changePasswordToolStripMenuItem
             // 
             this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(203, 26);
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.changePasswordToolStripMenuItem.Text = "ChangePassword";
+            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
             // 
             // loansReturnBookToolStripMenuItem
             // 
@@ -93,13 +94,13 @@
             // loanBookToolStripMenuItem
             // 
             this.loanBookToolStripMenuItem.Name = "loanBookToolStripMenuItem";
-            this.loanBookToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
+            this.loanBookToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.loanBookToolStripMenuItem.Text = "Loan_Book";
             // 
             // returnBookToolStripMenuItem
             // 
             this.returnBookToolStripMenuItem.Name = "returnBookToolStripMenuItem";
-            this.returnBookToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
+            this.returnBookToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.returnBookToolStripMenuItem.Text = "Return_Book";
             // 
             // exitToolStripMenuItem

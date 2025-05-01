@@ -98,3 +98,27 @@ C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement
 C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\TransferObject.pdb
 C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\DataLayer.pdb
 C:\Users\Truc Mai\Desktop\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\Presenta.9C561136.Up2Date
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.exe
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.pdb
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\PresentationLayer.exe
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\PresentationLayer.pdb
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\BussinessLayer.dll
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\TransferObject.dll
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\DataLayer.dll
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\BussinessLayer.pdb
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\TransferObject.pdb
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\bin\Debug\DataLayer.pdb
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.Admin.resources
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.Borrow.resources
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.Home.resources
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.HomeStaff.resources
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.FrmPersonalProfile.resources
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.DocumentManagement.resources
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.Register.resources
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.SignIn.resources
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+D:\fileMayAo\LibrarySystemManagement-master\LibrarySystemManagement-master\PresentationLayer\obj\Debug\Presenta.9C561136.Up2Date

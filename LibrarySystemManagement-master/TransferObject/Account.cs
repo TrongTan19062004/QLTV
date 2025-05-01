@@ -19,7 +19,9 @@ namespace TransferObject
         private DateTime user_createdAt;
         private string email;
         private string country;
-        public Account(int id, string name, DateTime? ngaySinh, string username, string password, int role_id,DateTime user_createdAt,string email,string phone,string country)
+        private string avatar;
+        private UserType type;
+        public Account(int id, string name, DateTime? ngaySinh, string username, string password, int role_id,DateTime user_createdAt,string email,string phone,string country,string avatar,UserType type)
         {
             this._id = id;
             this._name = name;
@@ -31,6 +33,8 @@ namespace TransferObject
             this.email = email;
             this.user_createdAt = user_createdAt;
             this.country = country;
+            this.avatar = avatar;
+            this.type = type;
         }
         public Account()
         {
@@ -92,6 +96,16 @@ namespace TransferObject
         {
             get { return country; }
             set { country = value; }
+        }
+        public string Avatar
+        {
+            get { return avatar; }
+            set { avatar = value; }
+        }
+        public UserType Type
+        {
+            get { return type; }
+            set { type = value; }
         }
 
 

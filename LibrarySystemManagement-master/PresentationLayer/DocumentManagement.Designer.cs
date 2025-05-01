@@ -47,7 +47,6 @@
             this.txtQuantity = new System.Windows.Forms.TextBox();
             this.txtLanguage = new System.Windows.Forms.TextBox();
             this.txtTitle = new System.Windows.Forms.TextBox();
-            this.txtPubYear = new System.Windows.Forms.TextBox();
             this.txtDocument_Id = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -61,6 +60,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.picHinh = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dtPublicationYear = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDocuments)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -123,6 +123,7 @@
             this.btnDeleteDocument.TabIndex = 10;
             this.btnDeleteDocument.Text = "Delete ";
             this.btnDeleteDocument.UseVisualStyleBackColor = false;
+            this.btnDeleteDocument.Click += new System.EventHandler(this.btnDeleteDocument_Click);
             // 
             // label2
             // 
@@ -172,6 +173,7 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.groupBox2.Controls.Add(this.dtPublicationYear);
             this.groupBox2.Controls.Add(this.txtAuthor_name);
             this.groupBox2.Controls.Add(this.txtType_Name);
             this.groupBox2.Controls.Add(this.txtGenre_name);
@@ -180,7 +182,6 @@
             this.groupBox2.Controls.Add(this.txtQuantity);
             this.groupBox2.Controls.Add(this.txtLanguage);
             this.groupBox2.Controls.Add(this.txtTitle);
-            this.groupBox2.Controls.Add(this.txtPubYear);
             this.groupBox2.Controls.Add(this.txtDocument_Id);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.label11);
@@ -257,13 +258,6 @@
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(308, 30);
             this.txtTitle.TabIndex = 12;
-            // 
-            // txtPubYear
-            // 
-            this.txtPubYear.Location = new System.Drawing.Point(234, 109);
-            this.txtPubYear.Name = "txtPubYear";
-            this.txtPubYear.Size = new System.Drawing.Size(308, 30);
-            this.txtPubYear.TabIndex = 11;
             // 
             // txtDocument_Id
             // 
@@ -380,6 +374,13 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // dtPublicationYear
+            // 
+            this.dtPublicationYear.Location = new System.Drawing.Point(246, 112);
+            this.dtPublicationYear.Name = "dtPublicationYear";
+            this.dtPublicationYear.Size = new System.Drawing.Size(200, 30);
+            this.dtPublicationYear.TabIndex = 20;
+            // 
             // DocumentManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -430,7 +431,6 @@
         private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.TextBox txtLanguage;
         private System.Windows.Forms.TextBox txtTitle;
-        private System.Windows.Forms.TextBox txtPubYear;
         private System.Windows.Forms.TextBox txtDocument_Id;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
@@ -440,5 +440,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox picHinh;
+        private System.Windows.Forms.DateTimePicker dtPublicationYear;
     }
 }

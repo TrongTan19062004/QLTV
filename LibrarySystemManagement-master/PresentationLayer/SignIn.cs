@@ -17,6 +17,7 @@ namespace PresentationLayer
     public partial class SignIn : Form
     {
         private Account account;
+        private UserType type;
         public SignIn()
         {
             InitializeComponent();
@@ -46,7 +47,7 @@ namespace PresentationLayer
             SqlCommand cmd = new SqlCommand(sql, cn);
             cmd.CommandType = CommandType.Text;
             SqlDataReader reader = cmd.ExecuteReader();
-
+            
             if (reader.Read())
             {
                 int id = (int)reader["user_id"];
@@ -62,7 +63,11 @@ namespace PresentationLayer
                 DateTime createdAt = reader.GetDateTime(reader.GetOrdinal("user_createdAt"));
                 string phone = reader["user_phone"].ToString();
                 string avatar = reader["user_avatar"].ToString();
-                account = new Account(id, name, ngaysinh, username, password, role_id, createdAt, email, phone, avatar);
+                string userType_name = reader["userType_name"].ToString();
+                type = new UserType();
+                type.UserTypeName = userType_name;
+                account = new Account(id, name, ngaysinh, username, password, role_id, createdAt, email, phone, country, avatar, type);
+
             }
             reader.Close();
 

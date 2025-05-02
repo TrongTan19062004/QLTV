@@ -39,7 +39,7 @@ namespace DataLayer
             }
             return listDocument;
         }
-        public bool  addDocument(Document doc, string authorName, string genre_name, string type_name)
+        public bool addDocument(Document doc, string authorName, string genre_name, string type_name)
         {
             string sql = @"
             SET DATEFORMAT DMY;
@@ -73,12 +73,12 @@ VALUES (
             new SqlParameter("@Language", SqlDbType.NVarChar) { Value = doc.Language },
             new SqlParameter("@Quantity", SqlDbType.Int) { Value = doc.Quantity },
             new SqlParameter("@Price", SqlDbType.Decimal) { Value = doc.Money },
-            
+
             new SqlParameter("@DocumentPage", SqlDbType.Int) { Value = doc.DocumentPage },
-            
-            
+
+
             };
-            return MyExcuteNonQuery(sql,CommandType.Text,parameters) > 0;
+            return MyExcuteNonQuery(sql, CommandType.Text, parameters) > 0;
         }
         public bool UpdateDocument(Document doc, string authorName, string genreName, string typeName)
         {
@@ -112,18 +112,18 @@ VALUES (
         new SqlParameter("@TypeName", typeName)
             };
 
-            return MyExcuteNonQuery(sql, CommandType.Text,parameters) > 0; // hoặc SqlHelper.ExecuteNonQuery
+            return MyExcuteNonQuery(sql, CommandType.Text, parameters) > 0; // hoặc SqlHelper.ExecuteNonQuery
         }
         public Document searchDocument(int id)
         {
             Document d = null;
             // TODO: Thêm code lấy dữ liệu từ database nếu cần
-            string sql = "SELECT document_id,Publication_Year,Title,Language,quantity,price,a.Author_name,d.document_page,g.Genre_name,d.document_image,dtype.TypeName FROM Document d  JOIN Author a on d.author_id=a.Author_id JOIN Genre g on g.Genre_id=d.genre_id  JOIN DocumentType dtype on dtype.TypeId=d.DocumentType_id WHERE d.document_id = "+id;
+            string sql = "SELECT document_id,Publication_Year,Title,Language,quantity,price,a.Author_name,d.document_page,g.Genre_name,d.document_image,dtype.TypeName FROM Document d  JOIN Author a on d.author_id=a.Author_id JOIN Genre g on g.Genre_id=d.genre_id  JOIN DocumentType dtype on dtype.TypeId=d.DocumentType_id WHERE d.document_id = " + id;
 
             DataTable result = MyExcuteReader(sql, CommandType.Text);
             foreach (DataRow dr in result.Rows)
             {
-                d=new Document();
+                d = new Document();
                 d.DocumentId = dr["document_id"] != DBNull.Value ? Convert.ToInt32(dr["document_id"]) : 0;
                 d.PublicationYear = Convert.ToDateTime(dr["Publication_Year"]);
                 d.Title = dr["Title"]?.ToString();
@@ -135,9 +135,9 @@ VALUES (
                 d.GenreName = dr["Genre_name"]?.ToString();
                 d.DocumentImage = dr["document_image"] != DBNull.Value ? dr["document_image"].ToString() : null;
                 d.TypeName = dr["TypeName"]?.ToString();
-                
+
             }
-            return d ;
+            return d;
         }
         public int deleteDocument(int id)
         {
@@ -145,12 +145,29 @@ VALUES (
             string sql = " DELETE FROM Document WHERE document_id = " + id;
             return MyExcuteNonQuery(sql, CommandType.Text);
         }
+        public Document GetDocumentById(int documentId)
+        {
+            string sql = "SELECT * FROM Document WHERE document_id = @DocumentId";
+            DataTable dt = data.MyExcuteReader(sql, CommandType.Text,
+                new SqlParameter[] { new SqlParameter("@DocumentId", documentId) });
+
+            if (dt.Rows.Count > 0)
+            {
+                var row = dt.Rows[0];
+                return new Document
+                {
+                    DocumentId = documentId,
+                    Title = row["Title"].ToString(),
+                    Quantity = Convert.ToInt32(row["quantity"])
+                };
+            }
+
+            return null;
+        }
     }
 }
-        
-             
-        
-    
-       
-    
+
+
+
+
 

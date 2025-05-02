@@ -13,7 +13,7 @@ namespace DataLayer
     {
         private SqlConnection cn;
         public DataProvier() {
-            string cnStr = "Data Source=LAPTOP-H6KBR02F\\SQLEXPRESS01;Initial Catalog=LibraryManagementDatabase;Integrated Security=True;";
+            string cnStr = "Data Source=LAPTOP-IRQBKCBQ;Integrated Security=True;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             cn=new SqlConnection(cnStr);
             
         }
@@ -95,5 +95,21 @@ namespace DataLayer
                 Disconnect();
             }
         }
+        public int MyExecuteNonQuery(string sql, CommandType type, params SqlParameter[] parameters)
+        {
+            if (cn.State != ConnectionState.Open)
+                cn.Open();
+
+            using (SqlCommand cmd = new SqlCommand(sql, cn))
+            {
+                cmd.CommandType = type;
+                if (parameters != null)
+                {
+                    cmd.Parameters.AddRange(parameters);
+                }
+                return cmd.ExecuteNonQuery();
+            }
+        }
+
     }
 }

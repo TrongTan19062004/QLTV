@@ -1,6 +1,6 @@
 ﻿namespace PresentationLayer
 {
-    partial class Borrow
+    partial class BorrowForm
     {
         /// <summary>
         /// Required designer variable.
@@ -32,27 +32,27 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_readerID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.import_btn = new System.Windows.Forms.Button();
+            this.btnSearchReader = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_Email = new System.Windows.Forms.TextBox();
+            this.txt_Sđt = new System.Windows.Forms.TextBox();
+            this.txt_Name = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSearchDocument = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txt_DocumenetName = new System.Windows.Forms.TextBox();
+            this.txt_DocumentID = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.return_dp = new System.Windows.Forms.DateTimePicker();
+            this.borrow_dp = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -107,12 +107,12 @@
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "BORROW FORM";
             // 
-            // textBox2
+            // txt_readerID
             // 
-            this.textBox2.Location = new System.Drawing.Point(46, 20);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(105, 22);
-            this.textBox2.TabIndex = 4;
+            this.txt_readerID.Location = new System.Drawing.Point(46, 20);
+            this.txt_readerID.Name = "txt_readerID";
+            this.txt_readerID.Size = new System.Drawing.Size(105, 22);
+            this.txt_readerID.TabIndex = 4;
             // 
             // label1
             // 
@@ -137,30 +137,30 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.import_btn);
+            this.panel3.Controls.Add(this.btnSearchReader);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.textBox5);
-            this.panel3.Controls.Add(this.textBox4);
-            this.panel3.Controls.Add(this.textBox3);
-            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.txt_Email);
+            this.panel3.Controls.Add(this.txt_Sđt);
+            this.panel3.Controls.Add(this.txt_Name);
+            this.panel3.Controls.Add(this.txt_readerID);
             this.panel3.Location = new System.Drawing.Point(12, 95);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(442, 158);
             this.panel3.TabIndex = 4;
             // 
-            // import_btn
+            // btnSearchReader
             // 
-            this.import_btn.Image = global::PresentationLayer.Properties.Resources.search15;
-            this.import_btn.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.import_btn.Location = new System.Drawing.Point(157, 19);
-            this.import_btn.Name = "import_btn";
-            this.import_btn.Size = new System.Drawing.Size(31, 23);
-            this.import_btn.TabIndex = 4;
-            this.import_btn.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.import_btn.UseVisualStyleBackColor = true;
+            this.btnSearchReader.Image = global::PresentationLayer.Properties.Resources.search15;
+            this.btnSearchReader.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnSearchReader.Location = new System.Drawing.Point(157, 19);
+            this.btnSearchReader.Name = "btnSearchReader";
+            this.btnSearchReader.Size = new System.Drawing.Size(31, 23);
+            this.btnSearchReader.TabIndex = 4;
+            this.btnSearchReader.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnSearchReader.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -192,50 +192,50 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Name:";
             // 
-            // textBox5
+            // txt_Email
             // 
-            this.textBox5.Location = new System.Drawing.Point(86, 117);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(238, 22);
-            this.textBox5.TabIndex = 1;
+            this.txt_Email.Location = new System.Drawing.Point(86, 117);
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(238, 22);
+            this.txt_Email.TabIndex = 1;
             // 
-            // textBox4
+            // txt_Sđt
             // 
-            this.textBox4.Location = new System.Drawing.Point(280, 68);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(141, 22);
-            this.textBox4.TabIndex = 1;
+            this.txt_Sđt.Location = new System.Drawing.Point(280, 68);
+            this.txt_Sđt.Name = "txt_Sđt";
+            this.txt_Sđt.Size = new System.Drawing.Size(141, 22);
+            this.txt_Sđt.TabIndex = 1;
             // 
-            // textBox3
+            // txt_Name
             // 
-            this.textBox3.Location = new System.Drawing.Point(73, 68);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(127, 22);
-            this.textBox3.TabIndex = 1;
+            this.txt_Name.Location = new System.Drawing.Point(73, 68);
+            this.txt_Name.Name = "txt_Name";
+            this.txt_Name.Size = new System.Drawing.Size(127, 22);
+            this.txt_Name.TabIndex = 1;
             // 
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.button1);
+            this.panel4.Controls.Add(this.btnSearchDocument);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.label9);
-            this.panel4.Controls.Add(this.textBox8);
-            this.panel4.Controls.Add(this.textBox9);
+            this.panel4.Controls.Add(this.txt_DocumenetName);
+            this.panel4.Controls.Add(this.txt_DocumentID);
             this.panel4.Location = new System.Drawing.Point(12, 289);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(442, 119);
             this.panel4.TabIndex = 4;
             // 
-            // button1
+            // btnSearchDocument
             // 
-            this.button1.Image = global::PresentationLayer.Properties.Resources.search15;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.Location = new System.Drawing.Point(157, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(31, 23);
-            this.button1.TabIndex = 4;
-            this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSearchDocument.Image = global::PresentationLayer.Properties.Resources.search15;
+            this.btnSearchDocument.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnSearchDocument.Location = new System.Drawing.Point(157, 19);
+            this.btnSearchDocument.Name = "btnSearchDocument";
+            this.btnSearchDocument.Size = new System.Drawing.Size(31, 23);
+            this.btnSearchDocument.TabIndex = 4;
+            this.btnSearchDocument.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnSearchDocument.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
@@ -257,19 +257,19 @@
             this.label9.TabIndex = 3;
             this.label9.Text = "ID";
             // 
-            // textBox8
+            // txt_DocumenetName
             // 
-            this.textBox8.Location = new System.Drawing.Point(73, 68);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(348, 22);
-            this.textBox8.TabIndex = 1;
+            this.txt_DocumenetName.Location = new System.Drawing.Point(73, 68);
+            this.txt_DocumenetName.Name = "txt_DocumenetName";
+            this.txt_DocumenetName.Size = new System.Drawing.Size(348, 22);
+            this.txt_DocumenetName.TabIndex = 1;
             // 
-            // textBox9
+            // txt_DocumentID
             // 
-            this.textBox9.Location = new System.Drawing.Point(46, 20);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(105, 22);
-            this.textBox9.TabIndex = 1;
+            this.txt_DocumentID.Location = new System.Drawing.Point(46, 20);
+            this.txt_DocumentID.Name = "txt_DocumentID";
+            this.txt_DocumentID.Size = new System.Drawing.Size(105, 22);
+            this.txt_DocumentID.TabIndex = 1;
             // 
             // label10
             // 
@@ -284,8 +284,8 @@
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.dateTimePicker2);
-            this.panel5.Controls.Add(this.dateTimePicker1);
+            this.panel5.Controls.Add(this.return_dp);
+            this.panel5.Controls.Add(this.borrow_dp);
             this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.label7);
             this.panel5.Location = new System.Drawing.Point(12, 447);
@@ -293,20 +293,20 @@
             this.panel5.Size = new System.Drawing.Size(442, 119);
             this.panel5.TabIndex = 4;
             // 
-            // dateTimePicker2
+            // return_dp
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(132, 62);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker2.TabIndex = 4;
-            this.dateTimePicker2.Value = new System.DateTime(2025, 4, 30, 11, 54, 33, 0);
+            this.return_dp.Location = new System.Drawing.Point(132, 62);
+            this.return_dp.Name = "return_dp";
+            this.return_dp.Size = new System.Drawing.Size(200, 22);
+            this.return_dp.TabIndex = 4;
+            this.return_dp.Value = new System.DateTime(2025, 4, 30, 11, 54, 33, 0);
             // 
-            // dateTimePicker1
+            // borrow_dp
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(132, 20);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 4;
+            this.borrow_dp.Location = new System.Drawing.Point(132, 20);
+            this.borrow_dp.Name = "borrow_dp";
+            this.borrow_dp.Size = new System.Drawing.Size(200, 22);
+            this.borrow_dp.TabIndex = 4;
             // 
             // label6
             // 
@@ -349,6 +349,30 @@
             this.confrim_btn.Text = "Confirm";
             this.confrim_btn.UseVisualStyleBackColor = true;
             // 
+            // BorrowForm
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(114)))), ((int)(((byte)(53)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Bookman Old Style", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(44, 160);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(246, 32);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "BORROW FORM";
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(114)))), ((int)(((byte)(53)))));
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("Bookman Old Style", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.ForeColor = System.Drawing.Color.White;
+            this.textBox6.Location = new System.Drawing.Point(110, 18);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(246, 32);
+            this.textBox6.TabIndex = 0;
+            this.textBox6.Text = "BORROW FORM";
+            // 
             // Borrow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -362,7 +386,7 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
-            this.Name = "Borrow";
+            this.Name = "BorrowForm";
             this.Text = "Borrow";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -383,27 +407,27 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_readerID;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button import_btn;
+        private System.Windows.Forms.Button btnSearchReader;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_Email;
+        private System.Windows.Forms.TextBox txt_Sđt;
+        private System.Windows.Forms.TextBox txt_Name;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSearchDocument;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txt_DocumenetName;
+        private System.Windows.Forms.TextBox txt_DocumentID;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker return_dp;
+        private System.Windows.Forms.DateTimePicker borrow_dp;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label11;

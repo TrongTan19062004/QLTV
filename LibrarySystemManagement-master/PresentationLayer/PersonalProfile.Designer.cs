@@ -31,7 +31,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dtPersonal = new System.Windows.Forms.DateTimePicker();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.picPersonalImage = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.MaskedTextBox();
@@ -43,8 +43,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnOpenImagePersonalProfile = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPersonalImage)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -74,13 +75,13 @@
             this.dtPersonal.Size = new System.Drawing.Size(353, 22);
             this.dtPersonal.TabIndex = 1;
             // 
-            // pictureBox2
+            // picPersonalImage
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(43, 107);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(318, 372);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.picPersonalImage.Location = new System.Drawing.Point(43, 107);
+            this.picPersonalImage.Name = "picPersonalImage";
+            this.picPersonalImage.Size = new System.Drawing.Size(318, 372);
+            this.picPersonalImage.TabIndex = 2;
+            this.picPersonalImage.TabStop = false;
             // 
             // label2
             // 
@@ -157,7 +158,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(307, 506);
+            this.button1.Location = new System.Drawing.Point(350, 506);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(138, 43);
             this.button1.TabIndex = 12;
@@ -175,11 +176,22 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btnOpenImagePersonalProfile
+            // 
+            this.btnOpenImagePersonalProfile.Location = new System.Drawing.Point(78, 506);
+            this.btnOpenImagePersonalProfile.Name = "btnOpenImagePersonalProfile";
+            this.btnOpenImagePersonalProfile.Size = new System.Drawing.Size(155, 43);
+            this.btnOpenImagePersonalProfile.TabIndex = 14;
+            this.btnOpenImagePersonalProfile.Text = "OpenImage";
+            this.btnOpenImagePersonalProfile.UseVisualStyleBackColor = true;
+            this.btnOpenImagePersonalProfile.Click += new System.EventHandler(this.btnOpenImagePersonalProfile_Click);
+            // 
             // FrmPersonalProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1025, 576);
+            this.Controls.Add(this.btnOpenImagePersonalProfile);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
@@ -191,7 +203,7 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.picPersonalImage);
             this.Controls.Add(this.dtPersonal);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -199,7 +211,7 @@
             this.Text = "PersonalProfile";
             this.Load += new System.EventHandler(this.PersonalProfile_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPersonalImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,7 +222,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtPersonal;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox picPersonalImage;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.MaskedTextBox txtName;
@@ -222,5 +234,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnOpenImagePersonalProfile;
     }
 }

@@ -29,6 +29,11 @@ namespace TransferObject
             get { return description; }
             set { description = value; }
         }
+        public override string ToString()
+        {
+            return UserTypeName;
+        }
+        
     }
 
 }

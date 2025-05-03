@@ -13,7 +13,7 @@ namespace DataLayer
     {
         private SqlConnection cn;
         public DataProvier() {
-            string cnStr = "Data Source=LAPTOP-IRQBKCBQ;Integrated Security=True;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string cnStr = "Data Source=LAPTOP-IRQBKCBQ;Initial Catalog=LibraryManagementDatabase;Integrated Security=True;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             cn=new SqlConnection(cnStr);
             
         }

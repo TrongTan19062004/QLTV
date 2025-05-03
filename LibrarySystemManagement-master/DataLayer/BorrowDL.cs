@@ -52,5 +52,30 @@ namespace DataLayer
             return db.MyExecuteNonQuery(sql, CommandType.Text,
                 new SqlParameter[] { new SqlParameter("@BorrowId", borrowId) }) > 0;
         }
+        public Borrow GetBorrowById(int borrowId)
+        {
+            string sql = "SELECT * FROM Borrow WHERE BorrowId = @BorrowId";
+            DataTable dt = db.MyExcuteReader(sql, CommandType.Text, new SqlParameter[]
+            {
+        new SqlParameter("@BorrowId", borrowId)
+            });
+
+            if (dt.Rows.Count > 0)
+            {
+                var row = dt.Rows[0];
+                return new Borrow
+                {
+                    BorrowID = borrowId,
+                    ReaderId = Convert.ToInt32(row["ReaderId"]),
+                    DocumentId = Convert.ToInt32(row["DocumentId"]),
+                    BorrowDate = Convert.ToDateTime(row["BorrowDate"]),
+                    ReturnDate = Convert.ToDateTime(row["ReturnDate"]),
+                    IsReturned = Convert.ToBoolean(row["IsReturned"])
+                };
+            }
+
+            return null;
+        }
+
     }
 }

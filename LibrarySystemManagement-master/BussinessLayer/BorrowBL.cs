@@ -34,5 +34,10 @@ namespace BusinessLayer
         {
             return documentDL.GetDocumentById(docId);
         }
+        public Borrow GetBorrowById(int borrowId)
+        {
+            return borrowDL.GetBorrowById(borrowId);
+        }
+
     }
 }

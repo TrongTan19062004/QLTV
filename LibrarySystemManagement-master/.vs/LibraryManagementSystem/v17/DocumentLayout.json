@@ -1,105 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\",
+  "WorkspaceRootPath": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\presentationlayer\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\truc mai\\desktop\\qltv\\librarysystemmanagement-master\\presentationlayer\\homestaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\homestaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\presentationlayer\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\presentationlayer\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\presentationlayer\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\presentationlayer\\register.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\register.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\presentationlayer\\register.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\register.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42D21030-B127-4488-9F63-C82EEB655FA0}|TransferObject\\TransferObject.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\transferobject\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42D21030-B127-4488-9F63-C82EEB655FA0}|TransferObject\\TransferObject.csproj|solutionrelative:transferobject\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B10D401-46D9-442D-B542-DFD9EBC1C2E9}|DataLayer\\DataLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\datalayer\\accountdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B10D401-46D9-442D-B542-DFD9EBC1C2E9}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\accountdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B10D401-46D9-442D-B542-DFD9EBC1C2E9}|DataLayer\\DataLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\datalayer\\documentdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B10D401-46D9-442D-B542-DFD9EBC1C2E9}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\documentdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F0DC2BC-F44B-46CE-845A-3550A52BC4BD}|BussinessLayer\\BussinessLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\bussinesslayer\\documentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F0DC2BC-F44B-46CE-845A-3550A52BC4BD}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\documentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\presentationlayer\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TAN\\AppData\\Local\\Temp\\277615dc-38a0-4ee3-8366-79ee05a204a5_LibrarySystemManagement-main (4).zip.4a5\\LibrarySystemManagement-main\\LibrarySystemManagement-master\\PresentationLayer\\Register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\presentationlayer\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\presentationlayer\\documentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\documentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\presentationlayer\\homestaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\truc mai\\desktop\\qltv\\librarysystemmanagement-master\\presentationlayer\\homestaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\homestaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\presentationlayer\\personalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\personalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\truc mai\\desktop\\qltv\\librarysystemmanagement-master\\presentationlayer\\return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\presentationlayer\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9F0DC2BC-F44B-46CE-845A-3550A52BC4BD}|BussinessLayer\\BussinessLayer.csproj|C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\bussinesslayer\\borrowbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0DC2BC-F44B-46CE-845A-3550A52BC4BD}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\borrowbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F0DC2BC-F44B-46CE-845A-3550A52BC4BD}|BussinessLayer\\BussinessLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\bussinesslayer\\accountbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F0DC2BC-F44B-46CE-845A-3550A52BC4BD}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\accountbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F0DC2BC-F44B-46CE-845A-3550A52BC4BD}|BussinessLayer\\BussinessLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\bussinesslayer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F0DC2BC-F44B-46CE-845A-3550A52BC4BD}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|d:\\filemayao\\librarysystemmanagement-master\\librarysystemmanagement-master\\presentationlayer\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\presentationlayer\\documentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\documentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B10D401-46D9-442D-B542-DFD9EBC1C2E9}|DataLayer\\DataLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\datalayer\\dataprovier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B10D401-46D9-442D-B542-DFD9EBC1C2E9}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\dataprovier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\presentationlayer\\personalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\personalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\presentationlayer\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476EA72E-FC74-469B-A3BF-863C944A521D}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B10D401-46D9-442D-B542-DFD9EBC1C2E9}|DataLayer\\DataLayer.csproj|C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\datalayer\\dataprovier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B10D401-46D9-442D-B542-DFD9EBC1C2E9}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\dataprovier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B10D401-46D9-442D-B542-DFD9EBC1C2E9}|DataLayer\\DataLayer.csproj|C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\datalayer\\borrowdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B10D401-46D9-442D-B542-DFD9EBC1C2E9}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\borrowdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -109,45 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 581,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.resx",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Register.resx",
-              "RelativeDocumentMoniker": "PresentationLayer\\Register.resx",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Register.resx",
-              "RelativeToolTip": "PresentationLayer\\Register.resx",
-              "ViewState": "AgIAAAsLAAAAAAAAAAAYwHsWAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-01T15:04:02.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.resx",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Register.resx",
-              "RelativeDocumentMoniker": "PresentationLayer\\Register.resx",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Register.resx",
-              "RelativeToolTip": "PresentationLayer\\Register.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-01T15:03:12.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.Designer.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Register.Designer.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Register.Designer.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Register.Designer.cs",
-              "RelativeToolTip": "PresentationLayer\\Register.Designer.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAYwDIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:48:11.483Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
@@ -159,288 +54,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cs [Design]",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Register.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Register.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Register.cs [Design]",
-              "RelativeToolTip": "PresentationLayer\\Register.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:44:23.333Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SignIn.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\SignIn.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\SignIn.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\SignIn.cs",
-              "RelativeToolTip": "PresentationLayer\\SignIn.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwB4AAAAJAAAAAAAAAA==",
+              "Title": "HomeStaff.cs",
+              "DocumentMoniker": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\PresentationLayer\\HomeStaff.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\HomeStaff.cs",
+              "ToolTip": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\PresentationLayer\\HomeStaff.cs",
+              "RelativeToolTip": "PresentationLayer\\HomeStaff.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T05:00:39.552Z",
+              "WhenOpened": "2025-05-03T03:28:30.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Register.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Register.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Register.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Register.cs",
-              "RelativeToolTip": "PresentationLayer\\Register.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Title": "HomeStaff.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\PresentationLayer\\HomeStaff.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\HomeStaff.cs",
+              "ToolTip": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\PresentationLayer\\HomeStaff.cs [Design]",
+              "RelativeToolTip": "PresentationLayer\\HomeStaff.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:44:58.164Z",
+              "WhenOpened": "2025-05-03T03:28:20.76Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataProvier.cs",
+              "DocumentMoniker": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\DataLayer\\DataProvier.cs",
+              "RelativeDocumentMoniker": "DataLayer\\DataProvier.cs",
+              "ToolTip": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\DataLayer\\DataProvier.cs",
+              "RelativeToolTip": "DataLayer\\DataProvier.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:51:21.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\PresentationLayer\\Program.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
+              "ToolTip": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\PresentationLayer\\Program.cs",
+              "RelativeToolTip": "PresentationLayer\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:50:46.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\TransferObject\\Account.cs",
-              "RelativeDocumentMoniker": "TransferObject\\Account.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\TransferObject\\Account.cs",
-              "RelativeToolTip": "TransferObject\\Account.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAqwBcAAAAIAAAAAAAAAA==",
+              "Title": "BorrowDL.cs",
+              "DocumentMoniker": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\DataLayer\\BorrowDL.cs",
+              "RelativeDocumentMoniker": "DataLayer\\BorrowDL.cs",
+              "ToolTip": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\DataLayer\\BorrowDL.cs",
+              "RelativeToolTip": "DataLayer\\BorrowDL.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwEYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:31:41.175Z",
+              "WhenOpened": "2025-05-02T17:28:41.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AccountDL.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\DataLayer\\AccountDL.cs",
-              "RelativeDocumentMoniker": "DataLayer\\AccountDL.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\DataLayer\\AccountDL.cs",
-              "RelativeToolTip": "DataLayer\\AccountDL.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAhwCwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BorrowBL.cs",
+              "DocumentMoniker": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\BussinessLayer\\BorrowBL.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\BorrowBL.cs",
+              "ToolTip": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\BussinessLayer\\BorrowBL.cs",
+              "RelativeToolTip": "BussinessLayer\\BorrowBL.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:15:52.641Z",
+              "WhenOpened": "2025-05-02T17:26:29.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DocumentBL.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\BussinessLayer\\DocumentBL.cs",
-              "RelativeDocumentMoniker": "BussinessLayer\\DocumentBL.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\BussinessLayer\\DocumentBL.cs",
-              "RelativeToolTip": "BussinessLayer\\DocumentBL.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAawAwAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Return.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\PresentationLayer\\Return.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Return.cs",
+              "ToolTip": "C:\\Users\\Truc Mai\\Desktop\\QLTV\\LibrarySystemManagement-master\\PresentationLayer\\Return.cs [Design]",
+              "RelativeToolTip": "PresentationLayer\\Return.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T18:26:42.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Home.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Home.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Home.cs [Design]",
-              "RelativeToolTip": "PresentationLayer\\Home.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T18:01:20.429Z",
+              "WhenOpened": "2025-05-02T14:29:41.408Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\TAN\\AppData\\Local\\Temp\\277615dc-38a0-4ee3-8366-79ee05a204a5_LibrarySystemManagement-main (4).zip.4a5\\LibrarySystemManagement-main\\LibrarySystemManagement-master\\PresentationLayer\\Register.cs",
-              "ToolTip": "C:\\Users\\TAN\\AppData\\Local\\Temp\\277615dc-38a0-4ee3-8366-79ee05a204a5_LibrarySystemManagement-main (4).zip.4a5\\LibrarySystemManagement-main\\LibrarySystemManagement-master\\PresentationLayer\\Register.cs [Read Only]",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:47:42.532Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Borrow.cs [Design]",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Borrow.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Borrow.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Borrow.cs [Design]",
-              "RelativeToolTip": "PresentationLayer\\Borrow.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T04:09:15.054Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DocumentManagement.cs [Design]",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\DocumentManagement.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\DocumentManagement.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\DocumentManagement.cs [Design]",
-              "RelativeToolTip": "PresentationLayer\\DocumentManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:44:45.024Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomeStaff.cs [Design]",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\HomeStaff.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\HomeStaff.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\HomeStaff.cs [Design]",
-              "RelativeToolTip": "PresentationLayer\\HomeStaff.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:44:42.636Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PersonalProfile.cs [Design]",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\PersonalProfile.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\PersonalProfile.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\PersonalProfile.cs [Design]",
-              "RelativeToolTip": "PresentationLayer\\PersonalProfile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T18:01:52.991Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SignIn.cs [Design]",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\SignIn.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\SignIn.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\SignIn.cs [Design]",
-              "RelativeToolTip": "PresentationLayer\\SignIn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T18:01:25.539Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AccountBL.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\BussinessLayer\\AccountBL.cs",
-              "RelativeDocumentMoniker": "BussinessLayer\\AccountBL.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\BussinessLayer\\AccountBL.cs",
-              "RelativeToolTip": "BussinessLayer\\AccountBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:13:00.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\BussinessLayer\\UserService.cs",
-              "RelativeDocumentMoniker": "BussinessLayer\\UserService.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\BussinessLayer\\UserService.cs",
-              "RelativeToolTip": "BussinessLayer\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:12:43.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Home.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Home.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Home.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Home.cs",
-              "RelativeToolTip": "PresentationLayer\\Home.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:12:01.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DocumentManagement.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\DocumentManagement.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\DocumentManagement.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\DocumentManagement.cs",
-              "RelativeToolTip": "PresentationLayer\\DocumentManagement.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAA+wI8AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T17:10:24.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DataProvier.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\DataLayer\\DataProvier.cs",
-              "RelativeDocumentMoniker": "DataLayer\\DataProvier.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\DataLayer\\DataProvier.cs",
-              "RelativeToolTip": "DataLayer\\DataProvier.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAswEAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T17:41:04.059Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Program.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Program.cs",
-              "RelativeToolTip": "PresentationLayer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T10:47:30.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PersonalProfile.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\PersonalProfile.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\PersonalProfile.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\PersonalProfile.cs",
-              "RelativeToolTip": "PresentationLayer\\PersonalProfile.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T18:01:57.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Borrow.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Borrow.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Borrow.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\PresentationLayer\\Borrow.cs",
-              "RelativeToolTip": "PresentationLayer\\Borrow.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T04:27:21.989Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 51,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DocumentDL.cs",
-              "DocumentMoniker": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\DataLayer\\DocumentDL.cs",
-              "RelativeDocumentMoniker": "DataLayer\\DocumentDL.cs",
-              "ToolTip": "D:\\fileMayAo\\LibrarySystemManagement-master\\LibrarySystemManagement-master\\DataLayer\\DocumentDL.cs",
-              "RelativeToolTip": "DataLayer\\DocumentDL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAKBvwA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T17:37:48.232Z",
-              "EditorCaption": ""
             }
           ]
         }

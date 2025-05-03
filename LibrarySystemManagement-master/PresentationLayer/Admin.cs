@@ -35,5 +35,10 @@ namespace PresentationLayer
             FrmPersonalProfile frmPersonalProfile = new FrmPersonalProfile(acc);
             frmPersonalProfile.ShowDialog();
         }
+
+        private void exitToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

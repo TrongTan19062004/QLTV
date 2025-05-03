@@ -31,23 +31,25 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.documentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.documentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.searchDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reserveDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loanDocumentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.returnDocumentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.staffManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.staffManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.adminInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statisticsTermsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.issuePenaltyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reserveDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.userManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.staffManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.issuePenaltyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.statisticsLoanDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statisticsReturnDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.issuePenaltyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.issuePenaltyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.loanDocumentManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.returnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.returnDocumentManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,7 +77,6 @@
             // 
             this.documentToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.documentManagementToolStripMenuItem,
-            this.searchDocumentToolStripMenuItem,
             this.reserveDocumentToolStripMenuItem});
             this.documentToolStripMenuItem.Name = "documentToolStripMenuItem";
             this.documentToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
@@ -87,20 +88,24 @@
             this.documentManagementToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
             this.documentManagementToolStripMenuItem.Text = "DocumentManagement";
             // 
-            // searchDocumentToolStripMenuItem
+            // reserveDocumentToolStripMenuItem
             // 
-            this.searchDocumentToolStripMenuItem.Name = "searchDocumentToolStripMenuItem";
-            this.searchDocumentToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
-            this.searchDocumentToolStripMenuItem.Text = "SearchDocument";
+            this.reserveDocumentToolStripMenuItem.Name = "reserveDocumentToolStripMenuItem";
+            this.reserveDocumentToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
+            this.reserveDocumentToolStripMenuItem.Text = "ReserveDocument";
             // 
             // loanDocumentManagementToolStripMenuItem
             // 
+            this.loanDocumentManagementToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loanDocumentManagementToolStripMenuItem1});
             this.loanDocumentManagementToolStripMenuItem.Name = "loanDocumentManagementToolStripMenuItem";
             this.loanDocumentManagementToolStripMenuItem.Size = new System.Drawing.Size(218, 24);
             this.loanDocumentManagementToolStripMenuItem.Text = "Loan_DocumentManagement";
             // 
             // returnDocumentManagementToolStripMenuItem
             // 
+            this.returnDocumentManagementToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.returnDocumentManagementToolStripMenuItem1});
             this.returnDocumentManagementToolStripMenuItem.Name = "returnDocumentManagementToolStripMenuItem";
             this.returnDocumentManagementToolStripMenuItem.Size = new System.Drawing.Size(229, 24);
             this.returnDocumentManagementToolStripMenuItem.Text = "Return_DocumentManagement";
@@ -113,6 +118,12 @@
             this.userManagementToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
             this.userManagementToolStripMenuItem.Text = "User_Management";
             // 
+            // userManagementToolStripMenuItem1
+            // 
+            this.userManagementToolStripMenuItem1.Name = "userManagementToolStripMenuItem1";
+            this.userManagementToolStripMenuItem1.Size = new System.Drawing.Size(215, 26);
+            this.userManagementToolStripMenuItem1.Text = "User_Management";
+            // 
             // staffManagementToolStripMenuItem
             // 
             this.staffManagementToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -120,6 +131,12 @@
             this.staffManagementToolStripMenuItem.Name = "staffManagementToolStripMenuItem";
             this.staffManagementToolStripMenuItem.Size = new System.Drawing.Size(148, 24);
             this.staffManagementToolStripMenuItem.Text = "Staff_Management";
+            // 
+            // staffManagementToolStripMenuItem1
+            // 
+            this.staffManagementToolStripMenuItem1.Name = "staffManagementToolStripMenuItem1";
+            this.staffManagementToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.staffManagementToolStripMenuItem1.Text = "Staff_Management";
             // 
             // adminToolStripMenuItem
             // 
@@ -145,6 +162,18 @@
             this.statisticsTermsToolStripMenuItem.Size = new System.Drawing.Size(120, 24);
             this.statisticsTermsToolStripMenuItem.Text = "statistics terms";
             // 
+            // statisticsLoanDocumentToolStripMenuItem
+            // 
+            this.statisticsLoanDocumentToolStripMenuItem.Name = "statisticsLoanDocumentToolStripMenuItem";
+            this.statisticsLoanDocumentToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
+            this.statisticsLoanDocumentToolStripMenuItem.Text = "statisticsLoanDocument";
+            // 
+            // statisticsReturnDocumentToolStripMenuItem
+            // 
+            this.statisticsReturnDocumentToolStripMenuItem.Name = "statisticsReturnDocumentToolStripMenuItem";
+            this.statisticsReturnDocumentToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
+            this.statisticsReturnDocumentToolStripMenuItem.Text = "statisticsReturnDocument";
+            // 
             // issuePenaltyToolStripMenuItem
             // 
             this.issuePenaltyToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -153,23 +182,11 @@
             this.issuePenaltyToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.issuePenaltyToolStripMenuItem.Text = "IssuePenalty";
             // 
-            // reserveDocumentToolStripMenuItem
+            // issuePenaltyToolStripMenuItem1
             // 
-            this.reserveDocumentToolStripMenuItem.Name = "reserveDocumentToolStripMenuItem";
-            this.reserveDocumentToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
-            this.reserveDocumentToolStripMenuItem.Text = "ReserveDocument";
-            // 
-            // userManagementToolStripMenuItem1
-            // 
-            this.userManagementToolStripMenuItem1.Name = "userManagementToolStripMenuItem1";
-            this.userManagementToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.userManagementToolStripMenuItem1.Text = "User_Management";
-            // 
-            // staffManagementToolStripMenuItem1
-            // 
-            this.staffManagementToolStripMenuItem1.Name = "staffManagementToolStripMenuItem1";
-            this.staffManagementToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.staffManagementToolStripMenuItem1.Text = "Staff_Management";
+            this.issuePenaltyToolStripMenuItem1.Name = "issuePenaltyToolStripMenuItem1";
+            this.issuePenaltyToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.issuePenaltyToolStripMenuItem1.Text = "IssuePenalty";
             // 
             // exitToolStripMenuItem
             // 
@@ -184,24 +201,27 @@
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
             this.exitToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.exitToolStripMenuItem1.Text = "Exit";
+            this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
-            // issuePenaltyToolStripMenuItem1
+            // loanDocumentManagementToolStripMenuItem1
             // 
-            this.issuePenaltyToolStripMenuItem1.Name = "issuePenaltyToolStripMenuItem1";
-            this.issuePenaltyToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.issuePenaltyToolStripMenuItem1.Text = "IssuePenalty";
+            this.loanDocumentManagementToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.returnToolStripMenuItem});
+            this.loanDocumentManagementToolStripMenuItem1.Name = "loanDocumentManagementToolStripMenuItem1";
+            this.loanDocumentManagementToolStripMenuItem1.Size = new System.Drawing.Size(287, 26);
+            this.loanDocumentManagementToolStripMenuItem1.Text = "Loan_DocumentManagement";
             // 
-            // statisticsLoanDocumentToolStripMenuItem
+            // returnToolStripMenuItem
             // 
-            this.statisticsLoanDocumentToolStripMenuItem.Name = "statisticsLoanDocumentToolStripMenuItem";
-            this.statisticsLoanDocumentToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
-            this.statisticsLoanDocumentToolStripMenuItem.Text = "statisticsLoanDocument";
+            this.returnToolStripMenuItem.Name = "returnToolStripMenuItem";
+            this.returnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.returnToolStripMenuItem.Text = "Return_";
             // 
-            // statisticsReturnDocumentToolStripMenuItem
+            // returnDocumentManagementToolStripMenuItem1
             // 
-            this.statisticsReturnDocumentToolStripMenuItem.Name = "statisticsReturnDocumentToolStripMenuItem";
-            this.statisticsReturnDocumentToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
-            this.statisticsReturnDocumentToolStripMenuItem.Text = "statisticsReturnDocument";
+            this.returnDocumentManagementToolStripMenuItem1.Name = "returnDocumentManagementToolStripMenuItem1";
+            this.returnDocumentManagementToolStripMenuItem1.Size = new System.Drawing.Size(298, 26);
+            this.returnDocumentManagementToolStripMenuItem1.Text = "Return_DocumentManagement";
             // 
             // Admin
             // 
@@ -225,7 +245,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem documentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem documentManagementToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem searchDocumentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem loanDocumentManagementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem returnDocumentManagementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem userManagementToolStripMenuItem;
@@ -242,5 +261,8 @@
         private System.Windows.Forms.ToolStripMenuItem issuePenaltyToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem loanDocumentManagementToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem returnToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem returnDocumentManagementToolStripMenuItem1;
     }
 }

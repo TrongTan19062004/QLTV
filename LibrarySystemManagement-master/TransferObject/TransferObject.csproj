@@ -51,6 +51,8 @@
     <Compile Include="LatePayment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reader.cs" />
+    <Compile Include="Regulation.cs" />
+    <Compile Include="Reservation.cs" />
     <Compile Include="UserType.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

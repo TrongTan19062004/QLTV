@@ -33,7 +33,10 @@
             this.documentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reserveDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loanDocumentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loanDocumentManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.returnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.returnDocumentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.returnDocumentManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.userManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.staffManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,9 +50,6 @@
             this.issuePenaltyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.loanDocumentManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.returnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.returnDocumentManagementToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,7 +68,7 @@
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1392, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1392, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -79,7 +79,7 @@
             this.documentManagementToolStripMenuItem,
             this.reserveDocumentToolStripMenuItem});
             this.documentToolStripMenuItem.Name = "documentToolStripMenuItem";
-            this.documentToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
+            this.documentToolStripMenuItem.Size = new System.Drawing.Size(92, 26);
             this.documentToolStripMenuItem.Text = "Document";
             // 
             // documentManagementToolStripMenuItem
@@ -93,6 +93,7 @@
             this.reserveDocumentToolStripMenuItem.Name = "reserveDocumentToolStripMenuItem";
             this.reserveDocumentToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
             this.reserveDocumentToolStripMenuItem.Text = "ReserveDocument";
+            this.reserveDocumentToolStripMenuItem.Click += new System.EventHandler(this.reserveDocumentToolStripMenuItem_Click);
             // 
             // loanDocumentManagementToolStripMenuItem
             // 
@@ -102,6 +103,21 @@
             this.loanDocumentManagementToolStripMenuItem.Size = new System.Drawing.Size(218, 24);
             this.loanDocumentManagementToolStripMenuItem.Text = "Loan_DocumentManagement";
             // 
+            // loanDocumentManagementToolStripMenuItem1
+            // 
+            this.loanDocumentManagementToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.returnToolStripMenuItem});
+            this.loanDocumentManagementToolStripMenuItem1.Name = "loanDocumentManagementToolStripMenuItem1";
+            this.loanDocumentManagementToolStripMenuItem1.Size = new System.Drawing.Size(287, 26);
+            this.loanDocumentManagementToolStripMenuItem1.Text = "Loan_DocumentManagement";
+            this.loanDocumentManagementToolStripMenuItem1.Click += new System.EventHandler(this.loanDocumentManagementToolStripMenuItem1_Click);
+            // 
+            // returnToolStripMenuItem
+            // 
+            this.returnToolStripMenuItem.Name = "returnToolStripMenuItem";
+            this.returnToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.returnToolStripMenuItem.Text = "Return_";
+            // 
             // returnDocumentManagementToolStripMenuItem
             // 
             this.returnDocumentManagementToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -109,6 +125,12 @@
             this.returnDocumentManagementToolStripMenuItem.Name = "returnDocumentManagementToolStripMenuItem";
             this.returnDocumentManagementToolStripMenuItem.Size = new System.Drawing.Size(229, 24);
             this.returnDocumentManagementToolStripMenuItem.Text = "Return_DocumentManagement";
+            // 
+            // returnDocumentManagementToolStripMenuItem1
+            // 
+            this.returnDocumentManagementToolStripMenuItem1.Name = "returnDocumentManagementToolStripMenuItem1";
+            this.returnDocumentManagementToolStripMenuItem1.Size = new System.Drawing.Size(298, 26);
+            this.returnDocumentManagementToolStripMenuItem1.Text = "Return_DocumentManagement";
             // 
             // userManagementToolStripMenuItem
             // 
@@ -121,8 +143,9 @@
             // userManagementToolStripMenuItem1
             // 
             this.userManagementToolStripMenuItem1.Name = "userManagementToolStripMenuItem1";
-            this.userManagementToolStripMenuItem1.Size = new System.Drawing.Size(215, 26);
+            this.userManagementToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.userManagementToolStripMenuItem1.Text = "User_Management";
+            this.userManagementToolStripMenuItem1.Click += new System.EventHandler(this.userManagementToolStripMenuItem1_Click);
             // 
             // staffManagementToolStripMenuItem
             // 
@@ -187,6 +210,7 @@
             this.issuePenaltyToolStripMenuItem1.Name = "issuePenaltyToolStripMenuItem1";
             this.issuePenaltyToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.issuePenaltyToolStripMenuItem1.Text = "IssuePenalty";
+            this.issuePenaltyToolStripMenuItem1.Click += new System.EventHandler(this.issuePenaltyToolStripMenuItem1_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -199,29 +223,9 @@
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(116, 26);
             this.exitToolStripMenuItem1.Text = "Exit";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
-            // 
-            // loanDocumentManagementToolStripMenuItem1
-            // 
-            this.loanDocumentManagementToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.returnToolStripMenuItem});
-            this.loanDocumentManagementToolStripMenuItem1.Name = "loanDocumentManagementToolStripMenuItem1";
-            this.loanDocumentManagementToolStripMenuItem1.Size = new System.Drawing.Size(287, 26);
-            this.loanDocumentManagementToolStripMenuItem1.Text = "Loan_DocumentManagement";
-            // 
-            // returnToolStripMenuItem
-            // 
-            this.returnToolStripMenuItem.Name = "returnToolStripMenuItem";
-            this.returnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.returnToolStripMenuItem.Text = "Return_";
-            // 
-            // returnDocumentManagementToolStripMenuItem1
-            // 
-            this.returnDocumentManagementToolStripMenuItem1.Name = "returnDocumentManagementToolStripMenuItem1";
-            this.returnDocumentManagementToolStripMenuItem1.Size = new System.Drawing.Size(298, 26);
-            this.returnDocumentManagementToolStripMenuItem1.Text = "Return_DocumentManagement";
             // 
             // Admin
             // 

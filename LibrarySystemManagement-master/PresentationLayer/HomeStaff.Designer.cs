@@ -32,8 +32,12 @@
             this.documentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.documentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reserveDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loanDocumentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loanFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lookupBorrowingHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.returnDocumentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.returnFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,12 +45,8 @@
             this.staffProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.loanFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lookupBorrowingHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.returnFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lbWelcome = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.reserveDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -90,6 +90,13 @@
             this.searchDocumentToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
             this.searchDocumentToolStripMenuItem.Text = "SearchDocument";
             // 
+            // reserveDocumentToolStripMenuItem
+            // 
+            this.reserveDocumentToolStripMenuItem.Name = "reserveDocumentToolStripMenuItem";
+            this.reserveDocumentToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
+            this.reserveDocumentToolStripMenuItem.Text = "ReserveDocument";
+            this.reserveDocumentToolStripMenuItem.Click += new System.EventHandler(this.reserveDocumentToolStripMenuItem_Click);
+            // 
             // loanDocumentManagementToolStripMenuItem
             // 
             this.loanDocumentManagementToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -99,6 +106,18 @@
             this.loanDocumentManagementToolStripMenuItem.Size = new System.Drawing.Size(218, 24);
             this.loanDocumentManagementToolStripMenuItem.Text = "Loan_DocumentManagement";
             // 
+            // loanFormToolStripMenuItem
+            // 
+            this.loanFormToolStripMenuItem.Name = "loanFormToolStripMenuItem";
+            this.loanFormToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.loanFormToolStripMenuItem.Text = "Loan_Form";
+            // 
+            // lookupBorrowingHistoryToolStripMenuItem
+            // 
+            this.lookupBorrowingHistoryToolStripMenuItem.Name = "lookupBorrowingHistoryToolStripMenuItem";
+            this.lookupBorrowingHistoryToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.lookupBorrowingHistoryToolStripMenuItem.Text = "LookupBorrowingHistory";
+            // 
             // returnDocumentManagementToolStripMenuItem
             // 
             this.returnDocumentManagementToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -106,6 +125,12 @@
             this.returnDocumentManagementToolStripMenuItem.Name = "returnDocumentManagementToolStripMenuItem";
             this.returnDocumentManagementToolStripMenuItem.Size = new System.Drawing.Size(229, 24);
             this.returnDocumentManagementToolStripMenuItem.Text = "Return_DocumentManagement";
+            // 
+            // returnFormToolStripMenuItem
+            // 
+            this.returnFormToolStripMenuItem.Name = "returnFormToolStripMenuItem";
+            this.returnFormToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.returnFormToolStripMenuItem.Text = "ReturnForm";
             // 
             // userManagementToolStripMenuItem
             // 
@@ -119,13 +144,14 @@
             // dataUserToolStripMenuItem
             // 
             this.dataUserToolStripMenuItem.Name = "dataUserToolStripMenuItem";
-            this.dataUserToolStripMenuItem.Size = new System.Drawing.Size(165, 26);
+            this.dataUserToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.dataUserToolStripMenuItem.Text = "DataUser";
+            this.dataUserToolStripMenuItem.Click += new System.EventHandler(this.dataUserToolStripMenuItem_Click);
             // 
             // searchUserToolStripMenuItem
             // 
             this.searchUserToolStripMenuItem.Name = "searchUserToolStripMenuItem";
-            this.searchUserToolStripMenuItem.Size = new System.Drawing.Size(165, 26);
+            this.searchUserToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.searchUserToolStripMenuItem.Text = "SearchUser";
             // 
             // exitToolStripMenuItem
@@ -159,24 +185,6 @@
             this.exitToolStripMenuItem2.Text = "Exit";
             this.exitToolStripMenuItem2.Click += new System.EventHandler(this.exitToolStripMenuItem2_Click);
             // 
-            // loanFormToolStripMenuItem
-            // 
-            this.loanFormToolStripMenuItem.Name = "loanFormToolStripMenuItem";
-            this.loanFormToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
-            this.loanFormToolStripMenuItem.Text = "Loan_Form";
-            // 
-            // lookupBorrowingHistoryToolStripMenuItem
-            // 
-            this.lookupBorrowingHistoryToolStripMenuItem.Name = "lookupBorrowingHistoryToolStripMenuItem";
-            this.lookupBorrowingHistoryToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
-            this.lookupBorrowingHistoryToolStripMenuItem.Text = "LookupBorrowingHistory";
-            // 
-            // returnFormToolStripMenuItem
-            // 
-            this.returnFormToolStripMenuItem.Name = "returnFormToolStripMenuItem";
-            this.returnFormToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
-            this.returnFormToolStripMenuItem.Text = "ReturnForm";
-            // 
             // lbWelcome
             // 
             this.lbWelcome.AutoSize = true;
@@ -195,12 +203,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // reserveDocumentToolStripMenuItem
-            // 
-            this.reserveDocumentToolStripMenuItem.Name = "reserveDocumentToolStripMenuItem";
-            this.reserveDocumentToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
-            this.reserveDocumentToolStripMenuItem.Text = "ReserveDocument";
             // 
             // HomeStaff
             // 

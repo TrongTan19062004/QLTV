@@ -21,7 +21,7 @@ namespace PresentationLayer
         public SignIn()
         {
             InitializeComponent();
-            int count = 3;
+            
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

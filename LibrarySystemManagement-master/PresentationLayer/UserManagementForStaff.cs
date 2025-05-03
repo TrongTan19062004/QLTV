@@ -15,10 +15,11 @@ namespace PresentationLayer
     public partial class UserManagementForStaff : Form
     {
         private string filePath;
-        public UserManagementForStaff()
+        private Account account;
+        public UserManagementForStaff(Account account)
         {
             InitializeComponent();
-            
+            this.account = account;
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -30,6 +31,10 @@ namespace PresentationLayer
         {
             AccountBL accountBL=new AccountBL();
             dgvUserManagement1.DataSource = accountBL.getAccounts();
+            if (account.Type.UserTypeName == "ADMIN")
+            {
+                cbtype1.Items.Add("Staff");
+            }
         }
 
         private void btnOpenImage_Click(object sender, EventArgs e)

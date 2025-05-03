@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,6 +58,18 @@
     </Compile>
     <Compile Include="Borrow.Designer.cs">
       <DependentUpon>Borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegulation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegulation.Designer.cs">
+      <DependentUpon>FrmRegulation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReservation.Designer.cs">
+      <DependentUpon>FrmReservation.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -90,6 +103,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservationManagementForAdmin.cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservationManagementForAdmin.cs.Designer.cs">
+      <DependentUpon>ReservationManagementForAdmin.cs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Return.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,11 +121,29 @@
     <Compile Include="SignIn.Designer.cs">
       <DependentUpon>SignIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Statistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistics.Designer.cs">
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManagementForStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManagementForStaff.Designer.cs">
+      <DependentUpon>UserManagementForStaff.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Borrow.resx">
       <DependentUpon>Borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegulation.resx">
+      <DependentUpon>FrmRegulation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReservation.resx">
+      <DependentUpon>FrmReservation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -135,11 +172,20 @@
       <DependentUpon>Register.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReservationManagementForAdmin.cs.resx">
+      <DependentUpon>ReservationManagementForAdmin.cs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Return.resx">
       <DependentUpon>Return.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistics.resx">
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManagementForStaff.resx">
+      <DependentUpon>UserManagementForStaff.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

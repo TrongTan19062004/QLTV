@@ -40,5 +40,28 @@ namespace PresentationLayer
         {
             this.Close();
         }
+
+        private void userManagementToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            UserManagementForStaff userManagementForStaff = new UserManagementForStaff(acc);
+            userManagementForStaff.ShowDialog();
+        }
+
+        private void loanDocumentManagementToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            PresentationLayer.BorrowForm borrow = new PresentationLayer.BorrowForm();
+            borrow.ShowDialog();
+        }
+
+        private void issuePenaltyToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reserveDocumentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReservationManagementForAdmin reservationManagementForAdmin = new ReservationManagementForAdmin();
+            reservationManagementForAdmin.ShowDialog();
+        }
     }
 }

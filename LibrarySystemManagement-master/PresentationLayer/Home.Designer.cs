@@ -41,6 +41,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.picHome = new System.Windows.Forms.PictureBox();
             this.lbWelcomeUser = new System.Windows.Forms.Label();
+            this.reservationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).BeginInit();
             this.SuspendLayout();
@@ -63,7 +64,8 @@
             // 
             this.personalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.viewPersonalToolStripMenuItem,
-            this.changePasswordToolStripMenuItem});
+            this.changePasswordToolStripMenuItem,
+            this.reservationToolStripMenuItem});
             this.personalToolStripMenuItem.Name = "personalToolStripMenuItem";
             this.personalToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
             this.personalToolStripMenuItem.Text = "Personal";
@@ -96,6 +98,7 @@
             this.loanBookToolStripMenuItem.Name = "loanBookToolStripMenuItem";
             this.loanBookToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.loanBookToolStripMenuItem.Text = "Loan_Book";
+            this.loanBookToolStripMenuItem.Click += new System.EventHandler(this.loanBookToolStripMenuItem_Click);
             // 
             // returnBookToolStripMenuItem
             // 
@@ -114,7 +117,7 @@
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(116, 26);
             this.exitToolStripMenuItem1.Text = "Exit";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
@@ -142,6 +145,13 @@
             this.lbWelcomeUser.Name = "lbWelcomeUser";
             this.lbWelcomeUser.Size = new System.Drawing.Size(0, 32);
             this.lbWelcomeUser.TabIndex = 3;
+            // 
+            // reservationToolStripMenuItem
+            // 
+            this.reservationToolStripMenuItem.Name = "reservationToolStripMenuItem";
+            this.reservationToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.reservationToolStripMenuItem.Text = "Reservation";
+            this.reservationToolStripMenuItem.Click += new System.EventHandler(this.reservationToolStripMenuItem_Click);
             // 
             // Home
             // 
@@ -177,5 +187,6 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.PictureBox picHome;
         private System.Windows.Forms.Label lbWelcomeUser;
+        private System.Windows.Forms.ToolStripMenuItem reservationToolStripMenuItem;
     }
 }

@@ -45,5 +45,17 @@ namespace PresentationLayer
             FrmPersonalProfile frmPersonalProfile = new FrmPersonalProfile(acc);
             frmPersonalProfile.ShowDialog();
         }
+
+        private void dataUserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UserManagementForStaff userManagementForStaff = new UserManagementForStaff(acc);
+            userManagementForStaff.ShowDialog();
+        }
+
+        private void reserveDocumentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
     }
 }

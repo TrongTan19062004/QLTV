@@ -44,5 +44,16 @@ namespace PresentationLayer
         {
 
         }
+
+        private void loanBookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reservationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmReservation frmReservation = new FrmReservation(account);
+            frmReservation.ShowDialog();
+        }
     }
 }
